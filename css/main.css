@@ -1,0 +1,242 @@
+/***** BASE STYLES *****/
+
+body {
+    color: #404040;
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+
+#porfolio {
+    height: 1450px;
+}
+
+#about {
+    height: 565px;
+}
+
+#contact {
+    height: 400px;
+}
+
+
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+
+
+/***** HEADER *****/
+
+header {
+    background: url(../img/frond-image.png);
+    background-size: cover;
+    border-bottom: 15px solid #A3B56E;
+    height: 700px;
+}
+
+header h1 {
+    color: #A3B56E;
+    font-family: 'Lora', serif;
+    font-size: 57px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: 0;
+    padding: 160px 0 0 150px;
+    text-align: left;
+}
+
+header h2 {
+    clear: left;
+    color: #737373;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 0 100px 0 300px;
+    text-align: left;
+}
+
+
+
+/***** PORTFOLIO *****/
+
+#portfolio .full-width {
+    clear: both;
+	  overflow: auto;
+    padding: 20px 80px 40px 80px;
+}
+
+#portfolio h3 {
+    color: #737373;
+    font-family: 'Lora', serif;
+    font-size: 34px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.rogue-image,
+.jubilee-image,
+.holstee-image {
+    float: left;
+    height: auto;
+}
+
+.rogue-image {
+    padding-bottom: 50px;
+}
+
+.jubilee-image {
+    padding-bottom: 70px;
+}
+
+.holstee-image {
+    padding: 0 0 50px 60px;
+}
+
+.rogue-pickings h4,
+.jubilee-austen h4,
+.holstee-manifesto h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.rogue-pickings p,
+.jubilee-austen p,
+.holstee-manifesto p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 0;
+}
+
+#portfolio a {
+    color: #A3B56E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.rogue-pickings {
+    padding: 10px 0 113px 0;
+}
+
+.jubilee-austen {
+    padding-bottom: 179px;
+}
+
+
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #D8E1E9;
+    padding: 20px 80px 0 80px;
+  }
+
+#about h3 {
+    color: #737373;
+    font-family: 'Lora', serif;
+    font-size: 34px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.about-image {
+    float: left;
+    height: auto;
+    padding-left: 59px;
+}
+
+#about h4 {
+    color: #A3B56E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+#about p {
+    color: #404040;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: none;
+    line-height: 23px;
+    margin-top: 0;
+}
+
+
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #495867;
+    padding: 20px 80px 0 80px;
+    text-align: center;
+}
+
+#contact h3 {
+    color: #FFFFFF;
+    font-family: 'Lora', serif;
+    font-size: 34px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#contact h4 {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#contact p {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    margin-top: 0;
+}
+
+#contact a {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding: 0 28px 80px 0;
+}
+
+#contact .copyright p {
+    font-size: 14px;
+}
