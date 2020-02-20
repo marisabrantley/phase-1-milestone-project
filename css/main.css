@@ -43,7 +43,7 @@ body {
 /***** HEADER *****/
 
 header {
-    background: url(../img/frond-image.png);
+    background-image: url(../img/frond-image.png);
     background-size: cover;
     border-bottom: 15px solid #A3B56E;
     height: 700px;
@@ -105,7 +105,7 @@ header h2 {
 }
 
 .holstee-image {
-    padding: 0 0 50px 60px;
+    padding: 0 0 40px 62px;
 }
 
 .rogue-pickings h4,
